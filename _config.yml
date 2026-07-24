@@ -103,9 +103,15 @@ analytics:
 
 include:
   - .htaccess
-  - _pages
   - files
 exclude:
+  - _drafts
+  - _pages
+  - _portfolio
+  - _posts
+  - _publications
+  - _talks
+  - _teaching
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -130,6 +136,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
   - tmp
   - vendor
 keep_files:
